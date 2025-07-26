@@ -1,0 +1,238 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: #434455;
+  line-height: 1.2;
+}
+header {
+  width: 1520px;
+  height: 72px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  border-bottom: 1px solid #e7e9fc;
+}
+.container {
+  width: 1158px;
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  color: #2e2f42;
+  text-decoration: none;
+  font-size: 18;
+  font-weight: bold;
+}
+.logo span {
+  color: #4d5ae5;
+}
+.menu {
+  font-size: 16px;
+}
+
+.menu .menu-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.menu .menu-ul .menu-item {
+  list-style-type: none;
+}
+.menu .menu-ul .menu-item .link {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.menu .menu-ul .menu-item .link:hover {
+  color: #404bbf;
+}
+.menu .menu-ul .menu-item .links {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.menu .menu-ul .menu-item .links:hover {
+  color: #404bbf;
+}
+.menu .menu-ul .menu-item .links:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+.adres {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: end;
+}
+.adres .adres-ul .adres-item {
+  list-style-type: none;
+}
+.adres .adres-ul .adres-item .adres-a {
+  color: #434455;
+  font-size: 16px;
+}
+.adres .adres-ul .adres-item .adres-a:hover {
+  color: #404bbf;
+}
+button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+button:hover {
+  background-color: #404bbf;
+}
+.section-1 {
+  background-color: #2e2f42;
+  color: #ffffff;
+  width: 1520px;
+  height: 600px;
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.section-2 {
+  padding: 120px;
+}
+.section-2 .section-2-ul {
+  width: 1200px;
+  height: 312px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.section-2 .section-2-ul .section-2-ul-item {
+  list-style-type: none;
+  margin-right: 24px;
+}
+.section-3 {
+  background-color: #f4f4fd;
+  padding: 120px;
+  width: 1520px;
+  height: 732px;
+}
+.section-3-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.section-3 .section-3-ul .section-3-ul-item {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.section-3-ul-item h3 {
+  justify-content: space-evenly;
+}
+
+.card {
+  display: inline-block;
+  width: 264px;
+  height: 380px;
+  padding-bottom: 32px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.card-image {
+  max-width: 100%;
+}
+.card h3 {
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.section-4 {
+  width: 1500px;
+  height: 1100px;
+  padding: 120px;
+  margin-bottom: 120px;
+}
+.section-4-ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section-4 .section-4-ul .section-4-ul-item {
+  list-style-type: none;
+  float: left;
+  padding: 30px;
+}
+.card-2 {
+  display: inline-block;
+  width: 360px;
+  height: 420px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+}
+.card-image-2 {
+  object-fit: cover;
+  margin: -10px;
+}
+
+.card-2 h3 {
+  margin: 15px;
+}
+footer {
+  background-color: #2e2f42;
+  width: 1520px;
+  height: 312px;
+  color: #f4f4fd;
+  padding: 120px;
+}
+.footer .logo {
+  color: #ffffff;
+}
+h2 {
+  color: #2e2f42;
+  font-size: 36px;
+  padding-bottom: 20px;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+  font-size: 56px;
+  color: #ffffff;
+  margin: auto;
+  width: 514px;
+  height: 140px;
+  text-align: center;
+}
+h3 {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
