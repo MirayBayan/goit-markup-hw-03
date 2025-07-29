@@ -139,12 +139,11 @@ button:hover {
 .section-3 .section-3-ul .section-3-ul-item {
   list-style-type: none;
 }
-.section-3-ul-item h3 {
-  justify-content: space-evenly;
-}
 
 .card {
   overflow: hidden;
+  width: 264px;
+  height: 380px;
   gap: 32px;
   border-radius: 4px;
   background-color: #ffffff;
@@ -154,8 +153,9 @@ button:hover {
 .card-image {
   max-width: 100%;
 }
-.card h3 {
+.card-content {
   align-items: center;
+  padding: 20px;
 }
 .section-4 {
   padding: 120px 0;
