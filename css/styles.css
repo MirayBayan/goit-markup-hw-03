@@ -10,7 +10,7 @@ body {
   line-height: 1.2;
 }
 header {
-  width: 1520px;
+  width: 1158px;
   height: 72px;
   background-color: white;
   display: flex;
@@ -22,7 +22,10 @@ header {
   border-bottom: 1px solid #e7e9fc;
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -99,56 +102,50 @@ button:hover {
 .section-1 {
   background-color: #2e2f42;
   color: #ffffff;
-  width: 1520px;
   height: 600px;
-  padding: 120px;
+  padding: 120px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 .section-2 {
-  padding: 120px;
+  padding: 120px 0;
 }
 .section-2 .section-2-ul {
-  width: 1200px;
   height: 312px;
   align-items: center;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-evenly;
+  gap: 24px;
 }
 .section-2 .section-2-ul .section-2-ul-item {
   list-style-type: none;
-  margin-right: 24px;
 }
 .section-3 {
   background-color: #f4f4fd;
-  padding: 120px;
-  width: 1520px;
+  padding: 120px 0;
   height: 732px;
 }
 .section-3-ul {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-around;
   text-align: center;
+  gap: 24px;
 }
 .section-3 .section-3-ul .section-3-ul-item {
   list-style-type: none;
-  margin-bottom: 10px;
 }
 .section-3-ul-item h3 {
   justify-content: space-evenly;
 }
 
 .card {
-  display: inline-block;
-  width: 264px;
-  height: 380px;
-  padding-bottom: 32px;
+  overflow: hidden;
+  gap: 32px;
   border-radius: 4px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
@@ -159,32 +156,23 @@ button:hover {
 }
 .card h3 {
   align-items: center;
-  margin-top: 30px;
-  margin-bottom: 15px;
 }
 .section-4 {
-  width: 1500px;
-  height: 1100px;
-  padding: 120px;
-  margin-bottom: 120px;
+  padding: 120px 0;
 }
 .section-4-ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
 }
 .section-4 .section-4-ul .section-4-ul-item {
   list-style-type: none;
-  float: left;
-  padding: 30px;
 }
 .card-2 {
   display: inline-block;
   width: 360px;
   height: 420px;
-  padding: 10px;
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -192,18 +180,18 @@ button:hover {
 }
 .card-image-2 {
   object-fit: cover;
-  margin: -10px;
+  max-width: 360px;
+  max-height: 300px;
 }
 
-.card-2 h3 {
-  margin: 15px;
-}
 footer {
   background-color: #2e2f42;
-  width: 1520px;
+  width: 1158px;
   height: 312px;
   color: #f4f4fd;
-  padding: 120px;
+  padding: 120px 0;
+  display: inline-block;
+  gap: 16px;
 }
 .footer .logo {
   color: #ffffff;
@@ -226,7 +214,6 @@ h1 {
 h3 {
   padding: 0;
   margin: 0;
-  display: flex;
 }
 p {
   padding: 0;
